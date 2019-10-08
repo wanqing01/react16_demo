@@ -1,8 +1,10 @@
 import React from "react";
 import ReactDom from "react-dom";
 import './index.less';
+import IRouter from './pages/router';
+
 
 ReactDom.render(
-    <h1>hello, world!</h1>,
+    <IRouter/>,
     document.getElementById("root")
 );
